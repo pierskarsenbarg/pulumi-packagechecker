@@ -1,5 +1,5 @@
 name: Testing package updates
-on: 
+on:
   schedule:
     - cron '0 */12 * * *'
 

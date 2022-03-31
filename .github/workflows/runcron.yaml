@@ -1,8 +1,7 @@
 name: Testing package updates
 on:
   schedule:
-    - cron '0 */12 * * *'
-
+    - cron: '0 */12 * * *'
 jobs: 
   test_packages:
     runs-on: ubuntu-latest
